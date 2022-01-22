@@ -1,0 +1,20 @@
+{
+  "name": "practica_class_node",
+  "version": "1.0.0",
+  "description": "practica de clase node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "practica",
+    "colors",
+    "argv"
+  ],
+  "author": "juanmcolorado",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs-parser": "^21.0.0"
+  }
+}
