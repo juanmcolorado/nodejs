@@ -1,0 +1,6 @@
+/**
+ * Usando funciones asicronas
+ * 1. Crear un archivo hola.txt
+ * 2. usar la funcion appendFile para agregar una segunda linea
+ * 3. despues de 5 segundos eliminar el archivo (fs.unlink)
+ */

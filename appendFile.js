@@ -8,4 +8,4 @@ function fantionFin(error){
     console.log('la data appenFile se cargo bien')
 }
 
-fs.appendFile('message.txt', 'info del append', fantionFin)
+fs.appendFile('file/message.txt', 'info del append', fantionFin)
