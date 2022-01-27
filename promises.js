@@ -4,7 +4,7 @@
  * 2. usar la funcion appendFile para agregar una segunda linea
  * 3. despues de 5 segundos eliminar el archivo (fs.unlink)
  */
-
+/** 
 // const fs = require('fs')
 const fsPromises = require('fs/promises')
 
@@ -27,12 +27,12 @@ fsPromises.writeFile(file, 'Prueba de promesas', 'utf8')
     .catch(error => {
         console.error('Error:', error)
     })
-
+*/
 const file1 = 'promises1.txt'
 async function writeFile () {
     await fsPromises.writeFile(file1, 'Prueba de promesas', 'utf8')
     await fsPromises.appendFile(file1, '\nSegunda linea insertada en promesas', 'utf8')
-    await setTimeout(() => {
+    setTimeout(() => {
         fsPromises.unlink(file1)    
     }, 5000)
 }
